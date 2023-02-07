@@ -1,0 +1,13 @@
+h1 {
+    color: purple;
+}
+body {
+    background: linear-gradient(90deg, #606fc3, #b32ebf);
+}
+h1
+{
+    font-weight: 900; text-align: center;
+}
+.element{
+    border: solid;
+}

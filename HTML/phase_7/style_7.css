@@ -1,0 +1,17 @@
+h1
+{
+    font-weight: 900; text-align: center;
+}
+
+.element{
+    border: solid;
+}
+
+
+body {
+    background: linear-gradient(90deg, #606fc3, #b32ebf);
+    
+}
+.tableau{
+    align-self: center;
+}

@@ -1,0 +1,26 @@
+
+body {
+    font-family: sans-serif;
+    margin: 100; /* Vous ne connaissez pas encore cette propriété mais elle permet de s'assurer que nos éléments prennent bien toute la largeur de la page */
+}
+
+.banniere {
+    padding: 20px; /* Vous ne connaissez pas encore cette propriété mais elle permet d'ajouter de l'espace dans notre élément*/
+    background-image: url('img/index.jpeg');
+}
+.banniere
+{
+    background-attachment: url("img/index.jpeg") cover center;
+}
+h1
+{
+    font-weight: 900; text-align: center;
+}
+
+.element{
+    border: solid;
+}
+body {
+    background: linear-gradient(90deg, #606fc3, #b32ebf);
+}
+

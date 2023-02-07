@@ -1,0 +1,23 @@
+h1
+{
+    font-weight: 900; text-align: center;
+}
+
+.element{
+    border: solid;
+}
+body {
+    background: linear-gradient(90deg, #606fc3, #b32ebf);
+}
+.liens:hover {
+    background-color: #BEAEE2;
+    color: white;
+}
+
+h1:hover {
+    color: #CDF0EA;
+}
+
+p:hover {
+    color: #F9CEEE;
+}
