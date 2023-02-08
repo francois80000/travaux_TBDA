@@ -11,3 +11,25 @@ h1
 .element{
     border: solid;
 }
+header{
+    background-color: aqua; 
+    height: 80px;
+    margin: 20px;
+}
+* {
+    font-family: Arial;
+  }
+  
+  fieldset {
+    border: none;
+    background-color: rgb(246, 182, 255);
+    border: 2px solid cyan;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  legend {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 4px;
+  }

@@ -1,109 +1,114 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-   
-   <link rel="stylesheet" href="style_contact.css">
+
+    <link rel="stylesheet" href="style_contact.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <br>
     <br>
-<img width="500"px src="jarditou_logo.jpg" alt=""></div>
-</header>
-<br>
-<h1><strong><em>La qualité depuis 70 ans</em></strong></h1>
-
-
-<ul>
-<li><a href="index.html">Accueil</a></li>
-<li><a href="tableau.html">Tableau</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-
-<br>
-<br>
-<br>
-<div align="center"><img width="1500"px src="promotion.jpg" alt=""></div>
-<p class="element"></p>
-
-
-
-
-
-
-<fieldset> 
-    <p>* Ces zones sont obligatoires</p>    
+    <img width="500" px src="jarditou_logo.jpg" alt=""></div>
+    </header>
     <br>
-    <fieldset>  
-        <p align="center">Vos coordonnées</p>
-        <hr width="150">
+    <h1><strong><em>La qualité depuis 70 ans</em></strong></h1>
+
+
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="tableau.html">Tableau</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <br>
+    <br>
+    <br>
+    <div align="center"><img width="1500" px src="promotion.jpg" alt=""></div>
+    <p class="element"></p>
+
+
+
+
+
+
+    <fieldset>
+        <p>* Ces zones sont obligatoires</p>
         <br>
-        <form action="test.html" method="post" id="formulaire">
-   <br>
+        <fieldset>
+           <legend>Vos coordonnées</legend>
+          
+            <br>
+            <form action="test.html" method="post" id="formulaire">
+                <br>
 
-   <label for="nom">Votre Nom* : </label><input type="text" name="nom" id="nom" autofocus required>
-   <br>
-   <label for="prenom">Votre prénom* : </label><input type="text" name="prenom" id="prenom" required>     
-   <br>
-   <br>
-   <label for="sexe">Sexe* : </label><input type="radio" name="masculin" value="Masculin" required>Masculin
-   <input type="radio" name="Féminin" value="Féminin" required>Féminin
-   <br>
-   <br>
-   <label for="date">Date de naissance* : </label><input type="date" name="date" id="date" required>
-   <br>
-   <label for="adresse">Adresse : </label><input type="text" name="adresse" id="adresse"required>
-<br>
-   <label for="code postal">Code postal* : </label><input type="text" name="code postal" id="code postal" required>
-   <br>
-   <label for="ville">Ville : </label><input type="text" name="ville" id="ville">      
-   <br>
-   <label for="email">Email* : </label><input type="text" name="email" id="email" size="50" maxlength="50" placeholder="dave.loper@afpa.fr" required>
-</fieldset>
-<br>
-<fieldset>
-    <p align="center">Votre demande</p>
-    <hr width="150">
-<br>
-<label for="sujet">Sujet* : </label>
-<select  id="sujet">
-<option value="">Veuillez séléctionner un sujet</option>
-<option value="commandes">Mes commandes</option>
-<option value="question">Question sur un produit</option>
-<option value="reclamation">Réclamation</option>
-<option value="autres">Autres</option>
-</select>
-<br>
-<br>
-<label for="question">Votre question* : </label>
-<br>
-<textarea name="question" id="question" cols="30" rows="10"></textarea>
-</fieldset>
-<br>
-<br>
-<input type="checkbox" name="valide" value=""> * J'accepte le traitement informatique de ce formulaire
-<br>
-<br>
-<input type="submit" value="Envoyer">
-<input type="submit" value="Annuler">
-
-
-</fieldset>
-    
-    
-
-
-
+                <label for="nom">Votre Nom* : </label><input type="text" name="nom" id="nom" autofocus required>
+                <br>
+                <label for="prenom">Votre prénom* : </label><input type="text" name="prenom" id="prenom" required>
+                <br>
+                <br>
+                <label for="sexe">Sexe* : </label><input type="radio" name="masculin" value="Masculin" required>Masculin
+                <input type="radio" name="Féminin" value="Féminin" required>Féminin
+                <br>
+                <br>
+                <label for="date">Date de naissance* : </label><input type="date" name="date" id="date" required>
+                <br>
+                <label for="adresse">Adresse : </label><input type="text" name="adresse" id="adresse" required>
+                <br>
+                <label for="code postal">Code postal* : </label><input type="text" name="code postal" id="code postal"
+                    required>
+                <br>
+                <label for="ville">Ville : </label><input type="text" name="ville" id="ville">
+                <br>
+                <label for="email">Email* : </label><input type="text" name="email" id="email" size="50" maxlength="50"
+                    placeholder="dave.loper@afpa.fr" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Votre demande</legend>
+            
+            <br>
+            <label for="sujet">Sujet* : </label>
+            <select id="sujet">
+                <option value="">Veuillez séléctionner un sujet</option>
+                <option value="commandes">Mes commandes</option>
+                <option value="question">Question sur un produit</option>
+                <option value="reclamation">Réclamation</option>
+                <option value="autres">Autres</option>
+            </select>
+            <br>
+            <br>
+            <label for="question">Votre question* : </label>
+            <br>
+            <textarea name="question" id="question" cols="30" rows="10"></textarea>
+        </fieldset>
+        <br>
+        <br>
+        <input type="checkbox" name="valide" value=""> * J'accepte le traitement informatique de ce formulaire
+        <br>
+        <br>
+        <input type="submit" value="Envoyer">
+        <input type="submit" value="Annuler">
 
 
+    </fieldset>
 
 
 
-</form>
+
+
+
+
+
+
+
+    </form>
     </fieldset>
 
 </body>
+
 </html>
