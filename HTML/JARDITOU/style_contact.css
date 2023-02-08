@@ -1,0 +1,13 @@
+h1 {
+    color: cyan;
+}
+body {
+    background: linear-gradient(90deg, #606fc3, #b32ebf);
+}
+h1
+{
+    font-weight: 900;
+}
+.element{
+    border: solid;
+}
