@@ -22,13 +22,13 @@ header{
   
   fieldset {
     border: none;
-    background-color: rgb(246, 182, 255);
+    background-color:  lightblue;
     border: 2px solid cyan;
     border-radius: 6px;
     margin-bottom: 20px;
   }
   legend {
-    background-color: white;
+    background-color: lightblue;
     border: 2px solid black;
     border-radius: 6px;
     padding: 4px;
