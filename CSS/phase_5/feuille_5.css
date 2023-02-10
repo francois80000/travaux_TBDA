@@ -1,0 +1,13 @@
+.parent{
+    border: 5px black solid;
+    display: inline-block;
+}
+.box{
+    display: inline-block;
+    background: rgb(113, 113, 113);
+    width: 100px;
+    height: 100px;
+}
+#two{
+    background: purple;
+}
