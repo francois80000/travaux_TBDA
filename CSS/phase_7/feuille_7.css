@@ -2,25 +2,32 @@ body {
   font-size: 1.1rem;
   font-family: 'new roman';
 }
+
 .logo {
   height: 120px;
   width: 100%;
 }
+
 .picturelogo {
   width: 50%;
   position: relative;
   float: left;
 }
+
 a:visited {
-  color: white;
+  color: aqua;
+
 }
+
 .promo {
   width: 270px;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 .titresite {
   width: 50%;
   position: relative;
@@ -28,36 +35,45 @@ img {
   font-size: 28px;
   margin-left: 40%;
 }
+
 nav {
-  background-color: #000000;
+  border-radius: 10px;
+  background-color: gray;
   width: 100%;
   height: auto;
   margin: 13px 0;
   padding-top: 1px;
   padding-bottom: 1px;
 }
+
 .menupc li {
   display: inline;
   list-style: none;
+
 }
+
 a {
   color: #fff;
 }
+
 .banner {
- width: 100%;
+  width: 100%;
 }
- 
+
 
 .container {
   display: flex;
   max-width: 100%;
   margin: 2px 2px;
 }
+
 .post {
   position: relative;
   max-width: 100%;
   width: 80%;
+
 }
+
 .sidebar {
   position: relative;
   padding-left: 4px;
@@ -66,14 +82,28 @@ a {
   background-color: grey;
   border: 1px transparent;
 }
-.menupc{
-  display:flex;
-}
-@media (max-width: 768px){
-  .sidebar{
+
+@media (max-width: 768px) {
+  .sidebar {
     display: none;
   }
-  .menupc{
+
+  .menupc li {
     flex-direction: column;
+
+  }
+
+  .post {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #slogan {
+    text-align: justify;
+  }
+
+  .titresite {
+
+    font-size: smaller;
+
   }
 }
